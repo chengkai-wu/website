@@ -1,35 +1,53 @@
+:root {
+    --black: #000000;
+    --dark-grey: #A9A9A9;
+    --grey: #808080;
+    --light-grey: #D3D3D3; 
+    --white: #ffffff
+}
+
 body {
     font-family: "Open Sans", Arial, sans-serif;
-    font-size: 12px;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #000;
-    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: 50px;
+    background-color: var(--black);
+    letter-spacing: 0.05em;
+    color: var(--grey);
 }
 
 h1 {
-    font-size: 12px;
-    font-weight: 800;
-    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--white);
+
 }
 
 h2 {
-    font-size: 12px;
-    font-weight: 100;
-    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: var(--grey);
+    max-width: 500px;
+    margin-top: 50px;
+
 }
 
 p {
-    font-size: 12px;
-    font-weight: 100;
-    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: var(--grey);
+
+
 }
 
 a {
     color: inherit; /* Uses the paragraph's 50% opacity white */
     text-decoration: none;
+
 }
 
 a:hover {
