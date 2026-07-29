@@ -5,15 +5,33 @@ body {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
+    background-color: #000;
+    color: #fff;
 }
 
 h1 {
     font-size: 12px;
     font-weight: 800;
+    color: #fff;
 }
 
-h2,
+h2 {
+    font-size: 12px;
+    font-weight: 100;
+    color: #fff;
+}
+
 p {
     font-size: 12px;
     font-weight: 100;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+a {
+    color: inherit; /* Uses the paragraph's 50% opacity white */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
